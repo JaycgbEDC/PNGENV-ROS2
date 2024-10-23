@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>png_navigation</name>
+  <version>0.0.0</version>
+  <description>The png_navigation package</description>
+
+  <maintainer email="kribe@todo.todo">kribe</maintainer>
+  <license>TODO</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- build_depend, build_export_depend, and exec_depend are combined into a single tag in ROS2 -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>png_interfaces</depend>
+
+  <!-- Test and documentation dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <doc_depend>doxygen</doc_depend>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <build_depend>rosidl_default_runtime</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <!-- Additional ROS2-specific export information can be added here -->
+    <build_type>ament_python</build_type>
+  </export>
+</package>

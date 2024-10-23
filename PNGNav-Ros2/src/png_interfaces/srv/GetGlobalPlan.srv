@@ -1,0 +1,7 @@
+png_interfaces/NavigationProblem plan_request
+
+---
+
+bool is_solved
+float64[] path
+png_interfaces/NavigationProblem plan_response
